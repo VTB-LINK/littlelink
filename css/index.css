@@ -2,3 +2,11 @@ body {
     background-image: url(/images/home-bg-blur.jpg);
     background-position: center;
 }
+
+/* h1 {
+    text-shadow: 2px 2px #3D3D3D;
+  } */
+
+p {
+    text-shadow: 1px 1px #3D3D3D;
+}
