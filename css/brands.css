@@ -63,6 +63,13 @@ button:hover,
 
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.icon_apple {
+  padding: 0px 8px 7.5px 0px;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
 
 .icon_large {
   padding: 0px 8px 3.5px 0px;
@@ -72,7 +79,7 @@ button:hover,
 }
 
 .icon {
-  padding: 0px 8px 3.5px 0px;
+  padding: 0px 8px 3.5px 10px;
   vertical-align: middle;
   width: 20px;
   height: 20px;
