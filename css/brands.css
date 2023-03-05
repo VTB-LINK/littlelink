@@ -308,9 +308,9 @@ button:hover,
   color: #6d6d6d;
   background-image: linear-gradient(
     -135deg,
-    #ffe3ef,
+    #abfdde,
     #dcf7ec,
-    #abfdde
+    #ffe3ef
   );
 }
 .button.button-eoefansandroid:hover,
