@@ -151,6 +151,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Api Gateway */
+.button.button-apigateway {
+  color: #6d6d6d;
+  background-color: #b2f3ef;
+}
+.button.button-apigateway:hover,
+.button.button-apigateway:focus {
+  filter: brightness(90%);
+}
+
+
 /* BiliBili */
 .button.button-bilibili {
   color: #ffffff;
@@ -283,17 +294,17 @@ button:hover,
 }
 
 /* EOEFANSWEB */
-.button.button-EOEFANSWEB {
+.button.button-eoefansweb {
   color: #6d6d6d;
   background-color: #ffe3ef;
 }
-.button.button-EOEFANSWEB:hover,
-.button.button-EOEFANSWEB:focus {
+.button.button-eoefansweb:hover,
+.button.button-eoefansweb:focus {
   filter: brightness(90%);
 }
 
-/* EOEFANSAPP */
-.button.button-EOEFANSAPP {
+/* EOEFANS Android */
+.button.button-eoefansandroid {
   color: #6d6d6d;
   background-image: linear-gradient(
     -135deg,
@@ -302,8 +313,23 @@ button:hover,
     #abfdde
   );
 }
-.button.button-EOEFANSAPP:hover,
-.button.button-EOEFANSAPP:focus {
+.button.button-eoefansandroid:hover,
+.button.button-eoefansandroid:focus {
+  filter: brightness(90%);
+}
+
+/* EOEFANS iOS */
+.button.button-eoefansios {
+  color: #6d6d6d;
+  background-image: linear-gradient(
+    -135deg,
+    #ffe3ef,
+    #dcf7ec,
+    #abfdde
+  );
+}
+.button.button-eoefansios:hover,
+.button.button-eoefansios:focus {
   filter: brightness(90%);
 }
 
@@ -556,6 +582,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Recruitment */
+.button.button-recruitment {
+  color: #000000;
+  background-color: #d7dfe2;
+}
+.button.button-recruitment:hover,
+.button.button-recruitment:focus {
+  filter: brightness(90%);
+}
+
 /* Signal */
 .button.button-signal {
   color: #ffffff;
@@ -744,6 +780,16 @@ button:hover,
 }
 .button.button-vrchat:hover,
 .button.button-vrchat:focus {
+  filter: brightness(90%);
+}
+
+/* VSCode */
+.button.button-vscode {
+  color: #ffffff;
+  background-color: #007fff;
+}
+.button.button-vscode:hover,
+.button.button-vscode:focus {
   filter: brightness(90%);
 }
 
