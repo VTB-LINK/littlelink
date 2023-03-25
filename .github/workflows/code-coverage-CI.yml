@@ -13,4 +13,6 @@ jobs:
         uses: slavcodev/coverage-monitor-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_path: ".coverage/coverage-summary.json"
+          coverage_format: clover
+          clover_file: "clover.xml"
+          
