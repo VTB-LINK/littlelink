@@ -333,59 +333,40 @@ button {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
-/* Light theme is default above */
+/* Force one unified dark visual style across light/dark/auto themes */
 
-
-/* Dark theme */
-
-:root.theme-dark {
+:root.theme-light,
+:root.theme-dark,
+:root.theme-auto {
     color-scheme: dark;
 }
 
-:root.theme-dark :focus-visible {
-    outline: 2px solid #4899F7;
+:root.theme-light :focus-visible,
+:root.theme-dark :focus-visible,
+:root.theme-auto :focus-visible {
+    outline: 2px solid #6EA3FF;
     outline-offset: 2px;
 }
 
-:root.theme-dark body {
-    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+:root.theme-light body,
+:root.theme-dark body,
+:root.theme-auto body {
+    background: radial-gradient(1200px 680px at 100% 0%, rgba(136, 54, 184, 0.42) 0%, rgba(136, 54, 184, 0) 58%), radial-gradient(1100px 680px at 0% 100%, rgba(28, 92, 176, 0.38) 0%, rgba(28, 92, 176, 0) 60%), linear-gradient(135deg, #0E1222 0%, #181A34 52%, #21162F 100%);
     background-attachment: fixed;
     min-height: 100vh;
     color: #ffffff;
 }
 
-:root.theme-dark a:not(.button) {
-    color: #4899F7;
+:root.theme-light a:not(.button),
+:root.theme-dark a:not(.button),
+:root.theme-auto a:not(.button) {
+    color: #7BA8FF;
 }
 
-:root.theme-dark a:not(.button):hover {
-    color: #7AB8FF;
-}
-
-
-/* Auto theme */
-
-:root.theme-auto {
-    color-scheme: light dark;
-}
-
-@media (prefers-color-scheme:dark) {
-    :root.theme-auto body {
-        background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-        background-attachment: fixed;
-        min-height: 100vh;
-        color: #ffffff;
-    }
-    :root.theme-auto :focus-visible {
-        outline: 2px solid #4899F7;
-        outline-offset: 2px;
-    }
-    :root.theme-auto a:not(.button) {
-        color: #4899F7;
-    }
-    :root.theme-auto a:not(.button):hover {
-        color: #7AB8FF;
-    }
+:root.theme-light a:not(.button):hover,
+:root.theme-dark a:not(.button):hover,
+:root.theme-auto a:not(.button):hover {
+    color: #A5C6FF;
 }
 
 
