@@ -858,3 +858,12 @@ button:hover {
     --button-text: #ffffff;
     --button-background: #2563eb;
 }
+
+
+/* Download */
+
+.button-download {
+    --button-text: #ffffff;
+    --button-background: #16a34a;
+    --button-border: 1px solid #86efac;
+}
